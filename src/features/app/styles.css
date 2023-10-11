@@ -1,0 +1,6 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #4aa75d, #419276);
+  display: flex;
+}

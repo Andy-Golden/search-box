@@ -1,0 +1,39 @@
+/*mau chot ow btn phai la absolute de btn ko chiem dien tich trong searchbox*/
+
+.searchbox {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 15px;
+  margin: auto;
+  background-color: #242628;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.searchbox--show {
+  width: 420px;
+}
+
+.searchbox__input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: xx-large;
+  color: white;
+  padding-left: 15px;
+}
+
+.searchbox__button {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  font-size: xx-large;
+  color: #242628;
+  text-align: center;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+}
